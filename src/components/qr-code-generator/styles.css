@@ -1,0 +1,22 @@
+.qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qr-btn {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: cadetblue;
+  margin: 10px;
+}
+
+.qr-input {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "fangsong";
+}
