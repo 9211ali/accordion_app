@@ -6,6 +6,7 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import LoadMoreProducts from "./components/load-more";
 import Home from "./components/Home";
+import ProfileFinder from "./components/profile-finder";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/color-generator" element={<RandomColor />} />
         <Route path="/load-more-products" element={<LoadMoreProducts />} />
+        <Route path="/profile-finder" element={<ProfileFinder />} />
       </Routes>
     </div>
   );

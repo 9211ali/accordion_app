@@ -1,0 +1,25 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  font-size: 20px;
+  font-weight: bold;
+  height: 36px;
+}
+
+.search-btn {
+  padding: 10px;
+  border: none;
+  background-color: bisque;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
