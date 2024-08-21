@@ -18,6 +18,9 @@ const Home = () => {
       <NavLink to="/load-more-products" className="nav-link">
         Load More Products
       </NavLink>
+      <NavLink to="/search-autocomplete" className="nav-link">
+        Search AutoComplete
+      </NavLink>
       <NavLink to="/star-rating" className="nav-link">
         Star Rating
       </NavLink>
